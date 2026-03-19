@@ -1,0 +1,558 @@
+
+> landscape_backend@1.0.0 build /home/ubuntu/project
+> rimraf dist && vite build && tsc
+
+vite v7.1.9 building for production...
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /index.html. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /index.html. Is the variable mistyped?
+<script src="%VITE_ANALYTICS_ENDPOINT%/umami"> in "/index.html" can't be bundled without type="module" attribute
+transforming...
+✓ 1760 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/client/index.html                 367.83 kB │ gzip: 105.61 kB
+../dist/client/assets/index-DoRG1gc9.css  126.15 kB │ gzip:  19.86 kB
+../dist/client/assets/index-DzH4-CDT.js   475.87 kB │ gzip: 145.71 kB
+✓ built in 3.03s
+client/src/App.tsx(1,25): error TS2307: Cannot find module '@/components/ui/sonner' or its corresponding type declarations.
+client/src/App.tsx(2,33): error TS2307: Cannot find module '@/components/ui/tooltip' or its corresponding type declarations.
+client/src/App.tsx(3,22): error TS2307: Cannot find module '@/pages/NotFound' or its corresponding type declarations.
+client/src/App.tsx(5,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './components/ErrorBoundary.js'?
+client/src/App.tsx(6,31): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './contexts/ThemeContext.js'?
+client/src/App.tsx(7,18): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './pages/Home.js'?
+client/src/_core/hooks/useAuth.ts(1,29): error TS2307: Cannot find module '@/const' or its corresponding type declarations.
+client/src/_core/hooks/useAuth.ts(2,22): error TS2307: Cannot find module '@/lib/trpc' or its corresponding type declarations.
+client/src/components/AIChatBox.tsx(1,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/AIChatBox.tsx(2,26): error TS2307: Cannot find module '@/components/ui/textarea' or its corresponding type declarations.
+client/src/components/AIChatBox.tsx(3,28): error TS2307: Cannot find module '@/components/ui/scroll-area' or its corresponding type declarations.
+client/src/components/AIChatBox.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/AIChatBox.tsx(314,22): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(9,39): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './LiveInteractionCanvas.js'?
+client/src/components/AdjustLiveStep.tsx(10,34): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './FloatingControls.js'?
+client/src/components/AdjustLiveStep.tsx(11,32): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './MaterialEditor.js'?
+client/src/components/AdjustLiveStep.tsx(12,36): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './DirectedInputPanel.js'?
+client/src/components/AdjustLiveStep.tsx(13,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(14,75): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(15,58): error TS2307: Cannot find module '@/components/ui/tabs' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(17,36): error TS2307: Cannot find module '@/hooks/useLiveInteraction' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(18,31): error TS2307: Cannot find module '@/hooks/useDesignSync' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(19,44): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/components/AdjustLiveStep.tsx(50,44): error TS7006: Parameter 'p' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(60,12): error TS7006: Parameter 'acc' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(60,17): error TS7006: Parameter 'm' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(73,39): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(73,44): error TS7006: Parameter 'p' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(132,55): error TS7006: Parameter 'obj' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(190,51): error TS7006: Parameter 'v' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(201,61): error TS7006: Parameter 'obj' implicitly has an 'any' type.
+client/src/components/AdjustLiveStep.tsx(205,37): error TS7006: Parameter 'selected' implicitly has an 'any' type.
+client/src/components/BeforeAfterViewer.tsx(9,35): error TS2307: Cannot find module '@shared/visualization-types' or its corresponding type declarations.
+client/src/components/BeforeAfterViewer.tsx(10,26): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './DesignCanvas.js'?
+client/src/components/CaptureView.tsx(2,60): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../hooks/useCaptureDevice.js'?
+client/src/components/CaptureView.tsx(3,51): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../hooks/useMeasurement.js'?
+client/src/components/CaptureView.tsx(4,43): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/capture-types.js'?
+client/src/components/CaptureView.tsx(5,24): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './ui/button.js'?
+client/src/components/CaptureView.tsx(6,22): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './ui/card.js'?
+client/src/components/CaptureView.tsx(160,38): error TS7006: Parameter 'point' implicitly has an 'any' type.
+client/src/components/CaptureView.tsx(160,45): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+client/src/components/CaptureView.tsx(252,34): error TS7006: Parameter 'm' implicitly has an 'any' type.
+client/src/components/CaptureView.tsx(252,37): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+client/src/components/ClientPresentationMode.tsx(9,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ClientPresentationMode.tsx(10,22): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/ClientPresentationMode.tsx(16,8): error TS2307: Cannot find module '@/../../shared/client-mode-types' or its corresponding type declarations.
+client/src/components/ClientPresentationMode.tsx(63,17): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/ClientPresentationMode.tsx(247,49): error TS7006: Parameter 'benefit' implicitly has an 'any' type.
+client/src/components/ClientPresentationMode.tsx(247,58): error TS7006: Parameter 'i' implicitly has an 'any' type.
+client/src/components/ClientPresentationStep.tsx(8,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(9,75): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(10,58): error TS2307: Cannot find module '@/components/ui/tabs' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(11,26): error TS2307: Cannot find module '@/components/ui/textarea' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(13,52): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(14,34): error TS2307: Cannot find module '@/hooks/useQuotationSync' or its corresponding type declarations.
+client/src/components/ClientPresentationStep.tsx(156,54): error TS7006: Parameter 'v' implicitly has an 'any' type.
+client/src/components/ClientPresentationStep.tsx(199,60): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/ClientPresentationStep.tsx(218,53): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/ClientPresentationStep.tsx(263,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ConfirmationStep.tsx(8,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ConfirmationStep.tsx(9,75): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/ConfirmationStep.tsx(10,26): error TS2307: Cannot find module '@/components/ui/checkbox' or its corresponding type declarations.
+client/src/components/ConfirmationStep.tsx(12,65): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/components/ConfirmationStep.tsx(13,34): error TS2307: Cannot find module '@/hooks/useQuotationSync' or its corresponding type declarations.
+client/src/components/ConfirmationStep.tsx(202,33): error TS7006: Parameter 'checked' implicitly has an 'any' type.
+client/src/components/DashboardLayout.tsx(1,25): error TS2307: Cannot find module '@/_core/hooks/useAuth' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(2,40): error TS2307: Cannot find module '@/components/ui/avatar' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(8,8): error TS2307: Cannot find module '@/components/ui/dropdown-menu' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(21,8): error TS2307: Cannot find module '@/components/ui/sidebar' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(22,29): error TS2307: Cannot find module '@/const' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(23,29): error TS2307: Cannot find module '@/hooks/useMobile' or its corresponding type declarations.
+client/src/components/DashboardLayout.tsx(27,41): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './DashboardLayoutSkeleton.js'?
+client/src/components/DashboardLayout.tsx(28,24): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './ui/button.js'?
+client/src/components/DashboardLayoutSkeleton.tsx(1,26): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './ui/skeleton.js'?
+client/src/components/DesignCanvas.tsx(17,8): error TS2307: Cannot find module '@shared/visualization-types' or its corresponding type declarations.
+client/src/components/DesignCanvas.tsx(31,8): error TS2307: Cannot find module '@shared/visualization-utils' or its corresponding type declarations.
+client/src/components/DesignCanvas.tsx(198,30): error TS7006: Parameter 'zone' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(203,31): error TS7006: Parameter 'point' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(203,38): error TS7006: Parameter 'index' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(279,15): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(364,19): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(408,17): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/DesignCanvas.tsx(464,17): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/DirectedInputPanel.tsx(9,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/DirectedInputPanel.tsx(16,8): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/DirectedInputPanel.tsx(17,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/components/DirectedInputPanel.tsx(18,26): error TS2307: Cannot find module '@/components/ui/textarea' or its corresponding type declarations.
+client/src/components/DirectedInputPanel.tsx(25,8): error TS2307: Cannot find module '@/components/ui/select' or its corresponding type declarations.
+client/src/components/DirectedInputPanel.tsx(27,31): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './PlantSelector.js'?
+client/src/components/DirectedInputPanel.tsx(197,34): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/DirectedInputPanel.tsx(206,34): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/DirectedInputPanel.tsx(248,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/DirectedInputPanel.tsx(271,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/EditorCanvas.tsx(9,35): error TS2307: Cannot find module '@shared/editor-types' or its corresponding type declarations.
+client/src/components/EditorCanvas.tsx(10,43): error TS2307: Cannot find module '@shared/editor-types' or its corresponding type declarations.
+client/src/components/EditorCanvas.tsx(21,8): error TS2307: Cannot find module '@shared/editor-transform' or its corresponding type declarations.
+client/src/components/EditorCanvas.tsx(22,43): error TS2307: Cannot find module '@/hooks/useEditorState' or its corresponding type declarations.
+client/src/components/EditorCanvas.tsx(23,32): error TS2307: Cannot find module '@/hooks/useEditorState' or its corresponding type declarations.
+client/src/components/EditorCanvas.tsx(103,41): error TS7006: Parameter 'measure' implicitly has an 'any' type.
+client/src/components/EditorCanvas.tsx(138,39): error TS7006: Parameter 'guide' implicitly has an 'any' type.
+client/src/components/EditorCanvas.tsx(308,54): error TS7006: Parameter 'id' implicitly has an 'any' type.
+client/src/components/EditorCanvas.tsx(424,13): error TS2322: Type 'unknown' is not assignable to type 'Key | null | undefined'.
+client/src/components/EditorCanvas.tsx(438,14): error TS18046: 'tool' is of type 'unknown'.
+client/src/components/ErrorBoundary.tsx(1,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/FloatingControls.tsx(9,32): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/live-interaction-types.js'?
+client/src/components/FloatingControls.tsx(10,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(2,22): error TS2307: Cannot find module '@/lib/trpc' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(3,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(4,75): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(5,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(6,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(7,79): error TS2307: Cannot find module '@/components/ui/select' or its corresponding type declarations.
+client/src/components/InventoryPanel.tsx(40,15): error TS7006: Parameter 'error' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(83,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(112,31): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(129,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(138,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(148,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(158,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/InventoryPanel.tsx(174,26): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/LiveInteractionCanvas.tsx(9,36): error TS2307: Cannot find module '@/hooks/useLiveInteraction' or its corresponding type declarations.
+client/src/components/LiveInteractionCanvas.tsx(10,42): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/live-interaction-types.js'?
+client/src/components/LiveInteractionCanvas.tsx(128,56): error TS7006: Parameter 'obj' implicitly has an 'any' type.
+client/src/components/LiveInteractionCanvas.tsx(253,56): error TS7006: Parameter 's' implicitly has an 'any' type.
+client/src/components/ManusDialog.tsx(3,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ManusDialog.tsx(10,8): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.
+client/src/components/Map.tsx(80,30): error TS2307: Cannot find module '@/hooks/usePersistFn' or its corresponding type declarations.
+client/src/components/Map.tsx(81,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/MaterialEditor.tsx(8,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/MaterialEditor.tsx(15,8): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/MaterialEditor.tsx(16,58): error TS2307: Cannot find module '@/components/ui/tabs' or its corresponding type declarations.
+client/src/components/MaterialEditor.tsx(120,44): error TS7006: Parameter 'v' implicitly has an 'any' type.
+client/src/components/PlantSelector.tsx(2,22): error TS2307: Cannot find module '@/lib/trpc' or its corresponding type declarations.
+client/src/components/PlantSelector.tsx(3,35): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/PlantSelector.tsx(4,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/PlantSelector.tsx(6,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/components/PlantSelector.tsx(17,47): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/PlantSelector.tsx(38,22): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/PlantSelector.tsx(43,34): error TS7006: Parameter 'item' implicitly has an 'any' type.
+client/src/components/ProjectRecoveryStep.tsx(7,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ProjectRecoveryStep.tsx(8,75): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/ProjectRecoveryStep.tsx(10,33): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/components/ProjectRecoveryStep.tsx(11,40): error TS2307: Cannot find module '@/hooks/useWorkflowPersistence' or its corresponding type declarations.
+client/src/components/SurfaceEditor.tsx(9,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/SurfaceEditor.tsx(10,22): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/components/SurfaceEditor.tsx(16,8): error TS2307: Cannot find module '@/../../shared/surface-editor-types' or its corresponding type declarations.
+client/src/components/SurfaceEditor.tsx(26,8): error TS2307: Cannot find module '@/../../shared/surface-editor-utils' or its corresponding type declarations.
+client/src/components/SurfaceEditor.tsx(94,19): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(139,11): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(141,11): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(145,20): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(145,39): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(146,29): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(147,22): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(147,41): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(154,11): error TS18046: 'zone' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(190,19): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(212,19): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(221,24): error TS18046: 'key' is of type 'unknown'.
+client/src/components/SurfaceEditor.tsx(273,17): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(286,25): error TS2345: Argument of type 'Map<unknown, unknown>' is not assignable to parameter of type 'Map<string, EditedZone>'.
+  Type 'unknown' is not assignable to type 'string'.
+client/src/components/SurfaceEditor.tsx(298,15): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(326,15): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(370,25): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(382,25): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(394,25): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(406,25): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(418,25): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(462,27): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(476,27): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/SurfaceEditor.tsx(494,27): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/components/WorkflowContainer.tsx(9,29): error TS2307: Cannot find module '@/hooks/useWorkflow' or its corresponding type declarations.
+client/src/components/WorkflowContainer.tsx(10,30): error TS2307: Cannot find module '@shared/workflow-types' or its corresponding type declarations.
+client/src/components/WorkflowContainer.tsx(11,40): error TS2307: Cannot find module '@/hooks/useWorkflow' or its corresponding type declarations.
+client/src/components/ui/accordion.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/alert-dialog.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/alert-dialog.tsx(5,32): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/alert.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/avatar.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/badge.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/breadcrumb.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/button-group.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/button-group.tsx(5,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+client/src/components/ui/button.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/calendar.tsx(9,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/calendar.tsx(10,40): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/card.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/carousel.tsx(7,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/carousel.tsx(8,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/chart.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/checkbox.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/command.tsx(7,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/command.tsx(14,8): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.
+client/src/components/ui/context-menu.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/dialog.tsx(1,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/drawer.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/dropdown-menu.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/empty.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/field.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/field.tsx(5,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+client/src/components/ui/field.tsx(6,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+client/src/components/ui/form.tsx(16,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/form.tsx(17,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+client/src/components/ui/hover-card.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/input-group.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/input-group.tsx(5,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/input-group.tsx(6,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/components/ui/input-group.tsx(7,26): error TS2307: Cannot find module '@/components/ui/textarea' or its corresponding type declarations.
+client/src/components/ui/input-otp.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/input.tsx(1,38): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.
+client/src/components/ui/input.tsx(2,32): error TS2307: Cannot find module '@/hooks/useComposition' or its corresponding type declarations.
+client/src/components/ui/input.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/input.tsx(23,17): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/input.tsx(36,25): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/input.tsx(40,23): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/item.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/item.tsx(6,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+client/src/components/ui/kbd.tsx(1,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/label.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/menubar.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/navigation-menu.tsx(6,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/pagination.tsx(8,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/pagination.tsx(9,40): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/pagination.tsx(75,7): error TS2783: 'size' is specified more than once, so this usage will be overwritten.
+client/src/components/ui/pagination.tsx(92,7): error TS2783: 'size' is specified more than once, so this usage will be overwritten.
+client/src/components/ui/popover.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/progress.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/radio-group.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/resizable.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/scroll-area.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/select.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/separator.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/sheet.tsx(7,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(3,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(4,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(5,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(12,8): error TS2307: Cannot find module '@/components/ui/sheet' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(13,26): error TS2307: Cannot find module '@/components/ui/skeleton' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(19,8): error TS2307: Cannot find module '@/components/ui/tooltip' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(20,29): error TS2307: Cannot find module '@/hooks/useMobile' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(21,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/sidebar.tsx(277,16): error TS7006: Parameter 'event' implicitly has an 'any' type.
+client/src/components/ui/skeleton.tsx(1,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/slider.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/spinner.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/switch.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/table.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/tabs.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/textarea.tsx(1,38): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.
+client/src/components/ui/textarea.tsx(2,32): error TS2307: Cannot find module '@/hooks/useComposition' or its corresponding type declarations.
+client/src/components/ui/textarea.tsx(3,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/textarea.tsx(22,17): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/textarea.tsx(36,25): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/textarea.tsx(40,23): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/components/ui/toggle-group.tsx(7,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/toggle-group.tsx(8,32): error TS2307: Cannot find module '@/components/ui/toggle' or its corresponding type declarations.
+client/src/components/ui/toggle.tsx(5,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/components/ui/tooltip.tsx(4,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+client/src/const.ts(1,42): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+client/src/hooks/useCaptureDevice.ts(2,57): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/capture-types.js'?
+client/src/hooks/useCaptureDevice.ts(74,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useComposition.ts(2,30): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './usePersistFn.js'?
+client/src/hooks/useEditorState.ts(18,8): error TS2307: Cannot find module '@shared/editor-types' or its corresponding type declarations.
+client/src/hooks/useEditorState.ts(19,43): error TS2307: Cannot find module '@shared/editor-types' or its corresponding type declarations.
+client/src/hooks/useEditorState.ts(139,42): error TS7006: Parameter 'm' implicitly has an 'any' type.
+client/src/hooks/useEditorState.ts(153,38): error TS7006: Parameter 'g' implicitly has an 'any' type.
+client/src/hooks/useLiveInteraction.ts(22,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/live-interaction-types.js'?
+client/src/hooks/useMeasurement.ts(2,43): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/capture-types.js'?
+client/src/hooks/useQuotationSync.ts(8,55): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/hooks/useQuotationSync.ts(108,30): error TS7006: Parameter 'plant' implicitly has an 'any' type.
+client/src/hooks/useQuotationSync.ts(125,33): error TS7006: Parameter 'material' implicitly has an 'any' type.
+client/src/hooks/useTerrainDetection.ts(3,71): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/capture-types.js'?
+client/src/hooks/useTerrainDetection.ts(4,48): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/capture-types.js'?
+client/src/hooks/useTerrainDetection.ts(199,52): error TS7006: Parameter 'p' implicitly has an 'any' type.
+client/src/hooks/useWorkflow.ts(16,8): error TS2307: Cannot find module '@shared/workflow-types' or its corresponding type declarations.
+client/src/hooks/useWorkflow.ts(17,42): error TS2307: Cannot find module '@shared/workflow-types' or its corresponding type declarations.
+client/src/hooks/useWorkflowPersistence.ts(8,91): error TS2307: Cannot find module '@shared/workflow-persistence-types' or its corresponding type declarations.
+client/src/hooks/useWorkflowPersistence.ts(9,30): error TS2307: Cannot find module '@shared/workflow-types' or its corresponding type declarations.
+client/src/hooks/useWorkflowPersistence.ts(48,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(56,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(74,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(170,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(178,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(187,21): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(234,17): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(237,21): error TS7006: Parameter 'state' implicitly has an 'any' type.
+client/src/hooks/useWorkflowPersistence.ts(294,23): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+client/src/lib/trpc.ts(2,32): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../server/routers.js'?
+client/src/main.tsx(1,22): error TS2307: Cannot find module '@/lib/trpc' or its corresponding type declarations.
+client/src/main.tsx(2,34): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+client/src/main.tsx(7,17): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './App.js'?
+client/src/main.tsx(8,29): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './const.js'?
+client/src/pages/Capture.tsx(3,29): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../components/CaptureView.js'?
+client/src/pages/Capture.tsx(4,22): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../lib/trpc.js'?
+client/src/pages/Capture.tsx(5,25): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/hooks/useAuth.js'?
+client/src/pages/Capture.tsx(6,24): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../components/ui/button.js'?
+client/src/pages/Capture.tsx(7,22): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../components/ui/card.js'?
+client/src/pages/ComponentShowcase.tsx(6,8): error TS2307: Cannot find module '@/components/ui/accordion' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(7,53): error TS2307: Cannot find module '@/components/ui/alert' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(8,29): error TS2307: Cannot find module '@/components/ui/aspect-ratio' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(9,53): error TS2307: Cannot find module '@/components/ui/avatar' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(10,23): error TS2307: Cannot find module '@/components/ui/badge' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(18,8): error TS2307: Cannot find module '@/components/ui/breadcrumb' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(19,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(20,26): error TS2307: Cannot find module '@/components/ui/calendar' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(28,8): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(35,8): error TS2307: Cannot find module '@/components/ui/carousel' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(36,26): error TS2307: Cannot find module '@/components/ui/checkbox' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(41,8): error TS2307: Cannot find module '@/components/ui/collapsible' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(49,8): error TS2307: Cannot find module '@/components/ui/command' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(55,8): error TS2307: Cannot find module '@/components/ui/context-menu' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(63,8): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(73,8): error TS2307: Cannot find module '@/components/ui/drawer' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(81,8): error TS2307: Cannot find module '@/components/ui/dropdown-menu' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(86,8): error TS2307: Cannot find module '@/components/ui/hover-card' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(87,23): error TS2307: Cannot find module '@/components/ui/input' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(92,8): error TS2307: Cannot find module '@/components/ui/input-otp' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(93,23): error TS2307: Cannot find module '@/components/ui/label' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(101,8): error TS2307: Cannot find module '@/components/ui/menubar' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(109,8): error TS2307: Cannot find module '@/components/ui/pagination' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(114,8): error TS2307: Cannot find module '@/components/ui/popover' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(115,26): error TS2307: Cannot find module '@/components/ui/progress' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(116,44): error TS2307: Cannot find module '@/components/ui/radio-group' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(121,8): error TS2307: Cannot find module '@/components/ui/resizable' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(122,28): error TS2307: Cannot find module '@/components/ui/scroll-area' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(129,8): error TS2307: Cannot find module '@/components/ui/select' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(130,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(138,8): error TS2307: Cannot find module '@/components/ui/sheet' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(139,26): error TS2307: Cannot find module '@/components/ui/skeleton' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(140,24): error TS2307: Cannot find module '@/components/ui/slider' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(141,24): error TS2307: Cannot find module '@/components/ui/switch' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(150,8): error TS2307: Cannot find module '@/components/ui/table' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(151,58): error TS2307: Cannot find module '@/components/ui/tabs' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(152,26): error TS2307: Cannot find module '@/components/ui/textarea' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(153,24): error TS2307: Cannot find module '@/components/ui/toggle' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(154,46): error TS2307: Cannot find module '@/components/ui/toggle-group' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(159,8): error TS2307: Cannot find module '@/components/ui/tooltip' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(160,26): error TS2307: Cannot find module '@/contexts/ThemeContext' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(174,41): error TS2307: Cannot find module '@/components/AIChatBox' or its corresponding type declarations.
+client/src/pages/ComponentShowcase.tsx(511,41): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/pages/ComponentShowcase.tsx(578,43): error TS7006: Parameter 'currentValue' implicitly has an 'any' type.
+client/src/pages/ComponentShowcase.tsx(743,36): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/pages/ComponentShowcase.tsx(754,38): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/pages/ComponentShowcase.tsx(766,36): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/pages/ComponentShowcase.tsx(1041,40): error TS7006: Parameter 'e' implicitly has an 'any' type.
+client/src/pages/Home.tsx(1,25): error TS2307: Cannot find module '@/_core/hooks/useAuth' or its corresponding type declarations.
+client/src/pages/Home.tsx(2,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/pages/Home.tsx(4,29): error TS2307: Cannot find module '@/const' or its corresponding type declarations.
+client/src/pages/Home.tsx(5,32): error TS2307: Cannot find module '@/components/InventoryPanel' or its corresponding type declarations.
+client/src/pages/NotFound.tsx(1,24): error TS2307: Cannot find module '@/components/ui/button' or its corresponding type declarations.
+client/src/pages/NotFound.tsx(2,35): error TS2307: Cannot find module '@/components/ui/card' or its corresponding type declarations.
+client/src/store/projectStore.ts(12,105): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../../shared/persistence-types.js'?
+server/_core/context.ts(2,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../drizzle/schema.js'?
+server/_core/context.ts(3,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './sdk.js'?
+server/_core/dataApi.ts(7,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/imageGeneration.ts(18,28): error TS2307: Cannot find module 'server/storage' or its corresponding type declarations.
+server/_core/imageGeneration.ts(19,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/index.ts(6,37): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './oauth.js'?
+server/_core/index.ts(7,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../routers.js'?
+server/_core/index.ts(8,31): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './context.js'?
+server/_core/index.ts(9,40): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './vite.js'?
+server/_core/llm.ts(1,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/map.ts(10,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/notification.ts(2,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/oauth.ts(1,42): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+server/_core/oauth.ts(3,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../db.js'?
+server/_core/oauth.ts(4,41): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './cookies.js'?
+server/_core/oauth.ts(5,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './sdk.js'?
+server/_core/sdk.ts(1,60): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+server/_core/sdk.ts(2,32): error TS2307: Cannot find module '@shared/_core/errors' or its corresponding type declarations.
+server/_core/sdk.ts(7,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../drizzle/schema.js'?
+server/_core/sdk.ts(8,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../db.js'?
+server/_core/sdk.ts(9,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/_core/sdk.ts(16,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './types/manusTypes.js'?
+server/_core/systemRouter.ts(2,29): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './notification.js'?
+server/_core/systemRouter.ts(3,57): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './trpc.js'?
+server/_core/systemRouter.ts(23,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/_core/trpc.ts(1,53): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+server/_core/trpc.ts(4,34): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './context.js'?
+server/_core/vite.ts(7,24): error TS2307: Cannot find module '../../vite.config' or its corresponding type declarations.
+server/_core/voiceTranscription.ts(28,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+server/db.ts(4,35): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+server/db.ts(5,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/env.js'?
+server/index.ts(7,37): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/oauth.js'?
+server/index.ts(8,27): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './routers.js'?
+server/index.ts(9,31): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/context.js'?
+server/index.ts(46,40): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/vite.js'?
+server/inventory-integration.ts(9,53): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../shared/profit-types.js'?
+server/inventory-integration.ts(10,75): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './queries.js'?
+server/inventory-integration.ts(11,36): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+server/queries-refactored.ts(10,60): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+server/queries-refactored.ts(11,104): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../shared/schemas.js'?
+server/queries-refactored.ts(12,66): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './response-helpers.js'?
+server/queries-refactored.ts(13,23): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './db.js'?
+server/queries.ts(15,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+server/queries.ts(16,23): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './db.js'?
+server/queries.ts(22,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../shared/schemas.js'?
+server/queries.ts(617,73): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+server/routers.ts(1,29): error TS2307: Cannot find module '@shared/const' or its corresponding type declarations.
+server/routers.ts(2,41): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/cookies.js'?
+server/routers.ts(3,30): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/systemRouter.js'?
+server/routers.ts(4,41): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/trpc.js'?
+server/routers.ts(5,32): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './routers/projects.js'?
+server/routers.ts(6,32): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './routers/captures.js'?
+server/routers.ts(7,33): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './routers/inventory.js'?
+server/routers.ts(8,28): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './routers/shop.js'?
+server/routers.ts(14,31): error TS7006: Parameter 'opts' implicitly has an 'any' type.
+server/routers.ts(15,41): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(3,44): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/trpc.js'?
+server/routers/captures.ts(42,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(42,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/captures.ts(83,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(83,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/captures.ts(109,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(109,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/captures.ts(139,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(139,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/captures.ts(171,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/captures.ts(171,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/inventory.ts(3,44): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/trpc.js'?
+server/routers/inventory.ts(9,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../queries.js'?
+server/routers/inventory.ts(10,29): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../db-mock.js'?
+server/routers/inventory.ts(11,23): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../db.js'?
+server/routers/inventory.ts(39,21): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/inventory.ts(84,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/inventory.ts(122,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(9,44): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/trpc.js'?
+server/routers/projects-refactored.ts(22,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../queries-refactored.js'?
+server/routers/projects-refactored.ts(29,43): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(48,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(48,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(78,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(78,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(109,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(109,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(129,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(129,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(162,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(162,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(182,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(182,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(212,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(212,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(232,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(232,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(271,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(271,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(296,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects-refactored.ts(296,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(3,44): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/trpc.js'?
+server/routers/projects.ts(17,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../queries.js'?
+server/routers/projects.ts(24,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../shared/schemas.js'?
+server/routers/projects.ts(30,43): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(47,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(47,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(70,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(70,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(98,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(98,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(121,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(121,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(158,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(158,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(197,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(197,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(240,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(240,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(269,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(269,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(315,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(315,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(343,21): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(343,26): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/projects.ts(372,24): error TS7031: Binding element 'ctx' implicitly has an 'any' type.
+server/routers/projects.ts(372,29): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(11,44): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../_core/trpc.js'?
+server/routers/shop.ts(19,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../inventory-integration.js'?
+server/routers/shop.ts(25,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../../shared/profit-design-generator-inventory.js'?
+server/routers/shop.ts(26,31): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../queries.js'?
+server/routers/shop.ts(38,25): error TS7006: Parameter 'item' implicitly has an 'any' type.
+server/routers/shop.ts(65,21): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(101,21): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(106,30): error TS7006: Parameter 'plant' implicitly has an 'any' type.
+server/routers/shop.ts(141,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(179,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(186,70): error TS7006: Parameter 'f' implicitly has an 'any' type.
+server/routers/shop.ts(221,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(284,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(357,24): error TS7031: Binding element 'input' implicitly has an 'any' type.
+server/routers/shop.ts(370,46): error TS7006: Parameter 'p' implicitly has an 'any' type.
+server/storage.ts(4,21): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/env.js'?
+shared/editor-transform.ts(8,69): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './editor-types.js'?
+shared/geometry-collision.ts(7,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './geometry-types.js'?
+shared/geometry-spatial-grid.ts(8,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './geometry-types.js'?
+shared/geometry-spatial-grid.ts(84,39): error TS7006: Parameter 'o' implicitly has an 'any' type.
+shared/geometry-spatial-grid.ts(107,45): error TS7006: Parameter 'o' implicitly has an 'any' type.
+shared/geometry-validation.ts(10,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './geometry-types.js'?
+shared/geometry-validation.ts(11,49): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './geometry-types.js'?
+shared/geometry-validation.ts(18,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './geometry-collision.js'?
+shared/geometry-validation.ts(160,33): error TS7006: Parameter 'c' implicitly has an 'any' type.
+shared/geometry-validation.ts(180,11): error TS7006: Parameter 'id' implicitly has an 'any' type.
+shared/geometry-validation.ts(181,14): error TS7006: Parameter 'obj' implicitly has an 'any' type.
+shared/geometry-validation.ts(228,48): error TS7006: Parameter 'err' implicitly has an 'any' type.
+shared/geometry-validation.ts(236,52): error TS7006: Parameter 'warn' implicitly has an 'any' type.
+shared/profit-design-generator-inventory.ts(15,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-types.js'?
+shared/profit-design-generator-inventory.ts(16,28): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-types.js'?
+shared/profit-design-generator-inventory.ts(17,45): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-scoring.js'?
+shared/profit-design-generator-inventory.ts(18,34): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/profit-design-generator.ts(8,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-types.js'?
+shared/profit-design-generator.ts(9,28): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-types.js'?
+shared/profit-design-generator.ts(10,45): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-scoring.js'?
+shared/profit-design-generator.ts(11,34): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/profit-design-generator.ts(275,56): error TS7006: Parameter 'p' implicitly has an 'any' type.
+shared/profit-design-generator.ts(325,8): error TS7006: Parameter 'acc' implicitly has an 'any' type.
+shared/profit-design-generator.ts(325,13): error TS7006: Parameter 'placement' implicitly has an 'any' type.
+shared/profit-design-generator.ts(326,36): error TS7006: Parameter 'p' implicitly has an 'any' type.
+shared/profit-design-generator.ts(357,12): error TS7006: Parameter 'a' implicitly has an 'any' type.
+shared/profit-design-generator.ts(357,15): error TS7006: Parameter 'b' implicitly has an 'any' type.
+shared/profit-scoring.ts(8,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './profit-types.js'?
+shared/profit-types.ts(8,45): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/surface-editor-utils.ts(15,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './surface-editor-types.js'?
+shared/surface-editor-utils.ts(376,24): error TS7006: Parameter 'p' implicitly has an 'any' type.
+shared/surface-editor-utils.ts(389,44): error TS2345: Argument of type 'Set<unknown>' is not assignable to parameter of type 'Set<string>'.
+  Type 'unknown' is not assignable to type 'string'.
+shared/surface-editor-utils.ts(392,44): error TS2345: Argument of type 'Set<unknown>' is not assignable to parameter of type 'Set<string>'.
+  Type 'unknown' is not assignable to type 'string'.
+shared/terrain-rules.ts(13,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/terrain-rules.ts(14,58): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/terrain-rules.ts(63,28): error TS7006: Parameter 'r' implicitly has an 'any' type.
+shared/terrain-rules.ts(335,16): error TS7006: Parameter 'r' implicitly has an 'any' type.
+shared/terrain-rules.ts(336,13): error TS7006: Parameter 'r' implicitly has an 'any' type.
+shared/terrain-rules.ts(417,35): error TS7006: Parameter 'zone' implicitly has an 'any' type.
+shared/terrain-segmentation.ts(11,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/terrain-segmentation.ts(12,38): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './terrain-types.js'?
+shared/terrain-segmentation.ts(457,7): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ soil: number; grass: number; concrete: number; unknown: number; }'.
+shared/terrain-segmentation.ts(458,7): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ soil: number; grass: number; concrete: number; }'.
+shared/types.ts(6,20): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean '../drizzle/schema.js'?
+shared/types.ts(7,15): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './_core/errors.js'?
+shared/visualization-utils.ts(15,8): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './visualization-types.js'?
+shared/workflow-persistence-types.ts(7,30): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './workflow-types.js'?
+ ELIFECYCLE  Command failed with exit code 2.
